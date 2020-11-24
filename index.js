@@ -19,15 +19,12 @@ function unleashDog (a,b) {
   return `Unleash ${a} the ${b}`
 }
 
-function array () {
+const routine = [wakeDog, leashDog, walkToPark, throwFrisbee, walkHome, unleashDog]
 
-}
-const routine =[wakeDog, leashDog ,walkToPark, throwFrisbee,walkHome,unleashDog];
-
-function exerciseDog(dogName, dogBreed) {
+const exerciseDog = (dogName, dogBreed) => {
     const results = []
-  for (let i= 0; i <=routine.length;i++){
-     results.push(routine[i](dogName,dogBreed));
-  }
-  return results
-}
+    for (let i = 0; i < routine.length; i++) {
+       results.push(routine[i](dogName, dogBreed)); 
+    }
+    return results;
+} 
