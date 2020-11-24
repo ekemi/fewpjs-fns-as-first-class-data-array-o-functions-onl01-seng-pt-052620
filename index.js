@@ -11,9 +11,19 @@ function walkToPark(a, b) {
 function throwFrisbee(a,b) {
   return `Throw the frisbee for ${a} the ${b}`
 }
+
 function walkHome (a, b) {
   return `Walk home with ${a} the ${b}`
 }
 function unleashDog (a,b) {
   return `Unleash ${a} the ${b}`
+}
+
+function array () {
+
+}
+var routine =[wakeDog(),leashDog(),walkToPark(),throwFrisbee(),walkHome(),unleashDog()]
+
+function array(routine) {
+  return routine;
 }
