@@ -11,3 +11,6 @@ function walkToPark(a, b) {
 function throwFrisbee(a,b) {
   return `Throw the frisbee for ${a} the ${b}`
 }
+function walkHome (a, b) {
+  return `Walk home with ${a} the ${b}`
+}
