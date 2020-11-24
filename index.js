@@ -22,7 +22,7 @@ function unleashDog (a,b) {
 function array () {
 
 }
-var routine =[wakeDog(),leashDog(),walkToPark(),throwFrisbee(),walkHome(),unleashDog()]
+var routine =[wakeDog(),leashDog(),walkToPark,throwFrisbee,walkHome,unleashDog];
 
 function array(routine) {
   return routine;
