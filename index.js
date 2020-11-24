@@ -14,6 +14,6 @@ function throwFrisbee(a,b) {
 function walkHome (a, b) {
   return `Walk home with ${a} the ${b}`
 }
-function unleashDog () {
+function unleashDog (a,b) {
   return `Unleash ${a} the ${b}`
 }
