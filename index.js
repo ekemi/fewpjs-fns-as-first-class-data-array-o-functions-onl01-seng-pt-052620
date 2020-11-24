@@ -4,3 +4,7 @@ return `Wake ${a} the ${b}` ;
 function leashDog () {
   return `Leash ${a} the ${b}`
 }
+
+function walkToPark(a, b) {
+  return `Walk to the park with ${a} the ${b}`
+}
