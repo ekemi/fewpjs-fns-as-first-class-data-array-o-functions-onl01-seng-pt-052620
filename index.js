@@ -8,3 +8,6 @@ function leashDog () {
 function walkToPark(a, b) {
   return `Walk to the park with ${a} the ${b}`
 }
+function throwFrisbee(a,b) {
+  return `Throw the frisbee for ${a} the ${b}`
+}
