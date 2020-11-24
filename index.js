@@ -25,8 +25,7 @@ function array () {
 var routine =[wakeDog, leashDog ,walkToPark, throwFrisbee,walkHome,unleashDog];
 
 function exerciseDog(dogName, dogBreed) {
-  for (let i= 0; i <=routine.length;i++){}
-}
-function exerciseDog(dog, breed) {
-  return routine.map(fn=>fn(dog, breed))
+  for (let i= 0; i <=routine.length;i++){
+  
+  }
 }
