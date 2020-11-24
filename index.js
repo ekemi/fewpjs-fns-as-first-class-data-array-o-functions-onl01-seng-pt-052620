@@ -22,10 +22,12 @@ function unleashDog (a,b) {
 function array () {
 
 }
-var routine =[wakeDog, leashDog ,walkToPark, throwFrisbee,walkHome,unleashDog];
+const routine =[wakeDog, leashDog ,walkToPark, throwFrisbee,walkHome,unleashDog];
 
 function exerciseDog(dogName, dogBreed) {
+    const results = []
   for (let i= 0; i <=routine.length;i++){
-
+     results.push(routine[i](dogName,dogBreed));
   }
+  return results
 }
